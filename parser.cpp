@@ -9,7 +9,7 @@ Outputs: A message stating if a valid ip address was found and some data about i
 
 using namespace std;
 
-//All function below this were wrote by Claude with no edits from the author 
+//All function below this were written by Claude with no edits from the author 
 //All AI generated comments were removed 
 //The author wrote all comments for this code 
 
@@ -18,7 +18,7 @@ bool isDigitChar(char c) {
     return c >= '0' && c <= '9';
 }
 
-//Function to check if a char is a valid non numerical digit
+//Function to check if a char is a valid token char
 bool isValidTokenChar(char c) {
     return isDigitChar(c) || c == '.' || c == ':';
 }
